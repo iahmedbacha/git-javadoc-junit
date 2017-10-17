@@ -20,4 +20,17 @@ public class VectorHelper {
         }
         return tab;
     }
+
+    public static int[] somme (int[] tab1, int[] tab2) throws DifferentLengthException{
+        if (tab1.length!=tab2.length) {
+            throw new DifferentLengthException();
+        }
+        else {
+            int[] tab = new int[tab1.length];
+            for (int i=0; i<tab1.length; i++) {
+                tab[i] = tab1[i] + tab2[i];
+            }
+            return tab;
+        }
+    }
 }
