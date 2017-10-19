@@ -1,5 +1,12 @@
+/**
+ * La classe qui manipule les vecteurs d'entiers
+ */
 public class VectorHelper {
 
+    /**
+     * @param tab : vecteur d'entiers
+     * @return tab trié (ordre croissant)
+     */
     public static int[] tri (int[] tab) {
         int permut_cpt;
         int temp;
@@ -21,6 +28,12 @@ public class VectorHelper {
         return tab;
     }
 
+    /**
+     * @param tab1 : vecteur d'entiers
+     * @param tab2 : vecteur d'entiers
+     * @throws DifferentLengthException
+     * @return la somme des deux vecteurs tab1 et tab2, une exception si leures tailles ne sont pas égaux
+     */
     public static int[] somme (int[] tab1, int[] tab2) throws DifferentLengthException{
         if (tab1.length!=tab2.length) {
             throw new DifferentLengthException();
