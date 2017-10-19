@@ -1,8 +1,11 @@
+/**
+ * La classe qui manipule les vecteurs d'entiers
+ */
 public class VectorHelper {
     /**
      * Algorithme de tri du vecteur par bulles
-     * @param tab
-     * @return
+     * @param tab : vecteur d'entiers
+     * @return tab trié (ordre croissant)
      */
     public static int[] tri (int[] tab) {
         int permut_cpt;
@@ -28,10 +31,10 @@ public class VectorHelper {
     /**
      * Retourne la somme de deux vecteurs <br>
      *     Exemple : [1,2,3] et [4,5,6] donne [5,7,9]
-     * @param tab1
-     * @param tab2
-     * @return
+     * @param tab1 : vecteur d'entiers
+     * @param tab2 : vecteur d'entiers
      * @throws DifferentLengthException
+     * @return la somme des deux vecteurs tab1 et tab2, une exception si leures tailles ne sont pas égaux
      */
     public static int[] somme (int[] tab1, int[] tab2) throws DifferentLengthException{
         if (tab1.length!=tab2.length) {
