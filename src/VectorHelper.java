@@ -33,7 +33,7 @@ public class VectorHelper {
      *     Exemple : [1,2,3] et [4,5,6] donne [5,7,9]
      * @param tab1 : vecteur d'entiers
      * @param tab2 : vecteur d'entiers
-     * @throws DifferentLengthException
+     * @throws DifferentLengthException : exception générée dans les cas où les tailles des deux tableaux sont différentes
      * @return la somme des deux vecteurs tab1 et tab2, une exception si leures tailles ne sont pas égaux
      */
     public static int[] somme (int[] tab1, int[] tab2) throws DifferentLengthException{
@@ -51,7 +51,7 @@ public class VectorHelper {
 
     /**
      * Procedure d'inversement d'un vecteur
-     * @param tab
+     * @param tab : vecteur d'entiers
      */
     public static void inverse(int tab[])//inverse les éléments d'un vecteur
     {
@@ -68,7 +68,8 @@ public class VectorHelper {
 
     /**
      * Retourne le max et le min d'un vecteur
-     * @param tab
+     * @param tab : vecteur d'entiers
+     * @param res : vecteur d'entiers qui va contenir le min et le max du vecteur tab
      */
     public static void minmax(int tab[],int res[])//retourne le min et le max d'un vecteur
     {
@@ -85,8 +86,8 @@ public class VectorHelper {
 
     /**
      * Fonction retournant le double d'un entier
-     * @param a
-     * @return
+     * @param a entier (qui represente un element d'un vecteur d'entiers)
+     * @return l'image de a par une fonction (multiplication par 2 dans ce cas)
      */
     public static int fonction(int a)
     {
@@ -96,7 +97,7 @@ public class VectorHelper {
     /**
      * Applique la fonction a tous les elements <br>
      *     du vecteur
-     * @param tab
+     * @param tab : vecteur d'entiers
      */
     public static void application(int tab[])//applique la fonction aux éléments du vecteur
     {
