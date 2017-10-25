@@ -105,7 +105,7 @@ public class VectorHelper {
         while (i<tab.length)
         {
             tab[i]=fonction(tab[i]);
-            i++;
+            i++; // incrémenter le i
         }
     }
 }
