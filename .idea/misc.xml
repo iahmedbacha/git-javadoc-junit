@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavadocGenerationManager">
-<<<<<<< HEAD
-    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Desktop/Documentation TP IGL" />
-=======
-    <option name="OUTPUT_DIRECTORY" value="D:/IGL_TP1/JavaDoc" />
->>>>>>> 0ebfa2a1f5680ea1c9720d00877e657373b5876f
-    <option name="OPTION_SCOPE" value="protected" />
     <option name="OPTION_HIERARCHY" value="true" />
     <option name="OPTION_NAVIGATOR" value="true" />
     <option name="OPTION_INDEX" value="true" />
